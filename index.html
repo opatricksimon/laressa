@@ -240,6 +240,7 @@
             align-items: center;
             justify-content: center;
             overflow: hidden;
+            padding-top: 100px; 
         }
 
         .hero-bg {
@@ -266,9 +267,9 @@
             height: 100%;
             background: linear-gradient(
                 135deg,
-                rgba(92, 53, 68, 0.9) 0%,
-                rgba(122, 71, 87, 0.8) 50%,
-                rgba(155, 90, 111, 0.85) 100%
+                rgba(99, 34, 59, 0.9) 0%,
+                rgba(137, 62, 86, 0.8) 50%,
+                rgba(171, 98, 121, 0.85) 100%
             );
             z-index: 2;
         }
@@ -279,6 +280,7 @@
             text-align: center;
             max-width: 850px;
             padding: 0 24px;
+            margin-top: 10vh; 
         }
 
         .hero-badge {
@@ -299,11 +301,12 @@
         }
 
         .hero h1 {
-            font-size: clamp(2.5rem, 6vw, 4.5rem);
+            font-size: clamp(2rem, 4.5vw, 3.5rem);
             line-height: 1.15;
             margin-bottom: 15px;
             color: var(--white);
             animation: fadeInUp 1s ease 0.4s both;
+            padding-top: 80px; 
         }
 
         .hero-subtitle {
@@ -1782,37 +1785,32 @@
         </div>
     </header>
 
-    <!-- Hero Fullscreen -->
-    <section id="inicio" class="hero">
-        <div class="hero-bg">
-            <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=1920&h=1080&fit=crop" alt="Psicóloga Laressa Silva">
+<!-- Hero Fullscreen -->
+<section id="inicio" class="hero">
+    <div class="hero-bg">
+        <img src="https://i.postimg.cc/bNfrByXK/1766971658943-019b67b7-3f5d-77ac-988b-dfeff7339354.png" alt="Psicóloga Laressa Silva">
+    </div>
+    <div class="hero-overlay"></div>
+    
+    <div class="hero-content">
+        <h1>Você merece se olhar <span class="highlight-light italic">com amor</span></h1>
+        <p class="hero-subtitle">Psicoterapia online para autoestima e relacionamentos</p>
+        <div class="hero-cta">
+            <a href="https://wa.me/5571993647784?text=Olá! Gostaria de agendar uma sessão." target="_blank" class="btn-primary">
+                Agendar sessão
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                </svg>
+            </a>
         </div>
-        <div class="hero-overlay"></div>
-        
-        <div class="hero-content">
-            <span class="hero-badge">✨ Psicóloga Online | Autoestima & Relacionamentos</span>
-            <h1>E se você pudesse finalmente<span class="highlight-light italic">se libertar da culpa e se amar de verdade?</span></h1>
-            <p class="hero-subtitle">E construir relacionamentos que te fazem bem.</p>
-            <p class="hero-description">
-                Te ajudo a reconstruir sua autoestima e criar vínculos mais saudáveis, com acolhimento e uma abordagem que realmente funciona.
-            </p>
-            <div class="hero-cta">
-                <a href="https://wa.me/5571993647784?text=Olá! Gostaria de agendar uma sessão." target="_blank" class="btn-primary">
-                    Agendar primeira sessão
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
-                    </svg>
-                </a>
-                <a href="#sobre" class="btn-outline">Conhecer mais</a>
-            </div>
-        </div>
+    </div>
 
-        <div class="hero-scroll">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
-            </svg>
-        </div>
-    </section>
+    <div class="hero-scroll">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+        </svg>
+    </div>
+</section>
 
     <!-- Problemas -->
     <section class="section section-cream">
@@ -1968,19 +1966,19 @@
     <!-- Carrossel de Imagens Inspiracionais -->
     <section class="inspiration-section">
         <div class="inspiration-carousel">
-            <div class="inspiration-item"><img src="https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=400&h=500&fit=crop" alt="Paz interior"></div>
-            <div class="inspiration-item"><img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&h=500&fit=crop" alt="Bem-estar"></div>
-            <div class="inspiration-item"><img src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=400&h=500&fit=crop" alt="Autocuidado"></div>
-            <div class="inspiration-item"><img src="https://images.unsplash.com/photo-1552508744-1696d4464960?w=400&h=500&fit=crop" alt="Equilíbrio"></div>
-            <div class="inspiration-item"><img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=400&h=500&fit=crop" alt="Serenidade"></div>
-            <div class="inspiration-item"><img src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=400&h=500&fit=crop" alt="Acolhimento"></div>
+            <div class="inspiration-item"><img src="https://i.pinimg.com/736x/12/fc/62/12fc62e465ce51f9ced35091d0f8434e.jpg" alt="Paz interior"></div>
+            <div class="inspiration-item"><img src="https://i.pinimg.com/736x/2a/22/cd/2a22cda33b0cc0af1970e117221fbbb7.jpg" alt="Bem-estar"></div>
+            <div class="inspiration-item"><img src="https://i.pinimg.com/736x/f9/1c/45/f91c45f89fbdbd408b4cd99f4b26218c.jpg" alt="Autocuidado"></div>
+            <div class="inspiration-item"><img src="https://i.pinimg.com/1200x/6a/a6/86/6aa686ebb538a472264f86e02a2e720c.jpg" alt="Equilíbrio"></div>
+            <div class="inspiration-item"><img src="https://i.pinimg.com/736x/80/d0/b2/80d0b2e38c8de1efb90fa1285b735e85.jpg" alt="Serenidade"></div>
+            <div class="inspiration-item"><img src="https://i.pinimg.com/1200x/f0/ed/ca/f0edca85f800ff7d70e196ec4d225dda.jpg" alt="Acolhimento"></div>
             <!-- Duplicados para loop -->
-            <div class="inspiration-item"><img src="https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=400&h=500&fit=crop" alt="Paz interior"></div>
-            <div class="inspiration-item"><img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&h=500&fit=crop" alt="Bem-estar"></div>
-            <div class="inspiration-item"><img src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=400&h=500&fit=crop" alt="Autocuidado"></div>
-            <div class="inspiration-item"><img src="https://images.unsplash.com/photo-1552508744-1696d4464960?w=400&h=500&fit=crop" alt="Equilíbrio"></div>
-            <div class="inspiration-item"><img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=400&h=500&fit=crop" alt="Serenidade"></div>
-            <div class="inspiration-item"><img src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=400&h=500&fit=crop" alt="Acolhimento"></div>
+            <div class="inspiration-item"><img src="https://i.pinimg.com/736x/12/fc/62/12fc62e465ce51f9ced35091d0f8434e.jpg" alt="Paz interior"></div>
+            <div class="inspiration-item"><img src="https://i.pinimg.com/736x/2a/22/cd/2a22cda33b0cc0af1970e117221fbbb7.jpg" alt="Bem-estar"></div>
+            <div class="inspiration-item"><img src="https://i.pinimg.com/736x/f9/1c/45/f91c45f89fbdbd408b4cd99f4b26218c.jpg" alt="Autocuidado"></div>
+            <div class="inspiration-item"><img src="https://i.pinimg.com/1200x/6a/a6/86/6aa686ebb538a472264f86e02a2e720c.jpg" alt="Equilíbrio"></div>
+            <div class="inspiration-item"><img src="https://i.pinimg.com/736x/80/d0/b2/80d0b2e38c8de1efb90fa1285b735e85.jpg" alt="Serenidade"></div>
+            <div class="inspiration-item"><img src="https://i.pinimg.com/1200x/f0/ed/ca/f0edca85f800ff7d70e196ec4d225dda.jpg" alt="Acolhimento"></div>
         </div>
     </section>
 
@@ -2209,7 +2207,7 @@
         <div class="container">
             <div class="about-grid">
                 <div class="about-image fade-in">
-                    <img src="https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=500&h=620&fit=crop" alt="Laressa Silva - Psicóloga">
+                    <img src="https://i.postimg.cc/c1RGjKz4/1766946496413-019b6637-3b63-7b5d-81a3-1ed490eed88c.png" alt="Laressa Silva - Psicóloga">
                     <div class="about-badge">
                         <span>💗</span>
                         <span>Psicóloga Online</span>
@@ -2343,7 +2341,7 @@
                     </div>
                 </div>
                 <div class="first-session-image fade-in">
-                    <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=500&h=600&fit=crop" alt="Sessão de terapia online">
+                    <img src="https://i.postimg.cc/hPVv2PL5/556892845-18533616586027942-5921380982588585089-n.jpg" alt="Sessão de terapia online">
                 </div>
             </div>
         </div>
